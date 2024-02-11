@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2017/07/16/09/11/road-2508733_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navbar ul
+{
+    margin: 0;
+    padding: 0;
+text-decoration: none;    
+}
+
+.navbar li{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    border: 2px solid white;
+    border-radius:10px ;
+    padding: 10px 30px 10px 30px;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+   
+}
+.navbar a{
+    text-decoration: none;
+   color: white;
+    display: block;
+}
+
+.navbar a:hover{
+    color: black;
+    text-shadow: 2px 2px 6px white;
+    transform: scale(1.5);
+   
+}
